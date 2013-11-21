@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="Bootstrapper.cs" />
     <Compile Include="IndexModule.cs" />
+    <Compile Include="Modules\PostsModule.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -68,13 +69,24 @@
     <None Include="Views\index.cshtml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Views\Posts\show.cshtml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Views\Posts\index.cshtml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="web.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Content Include="Content\nancy-logo.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Nancy.Demo.NancyBlog.Data\Nancy.Demo.NancyBlog.Data.csproj">
+      <Project>{027b6c39-8809-49cf-a267-6e9ddbb4780a}</Project>
+      <Name>Nancy.Demo.NancyBlog.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
