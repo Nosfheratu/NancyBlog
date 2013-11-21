@@ -1,0 +1,4 @@
+C:\Users\Fernando Serapio\documents\visual studio 2012\Projects\Nancy.Demo.NancyBlog\Nancy.Demo.NancyBlog.Data\bin\Debug\Nancy.Demo.NancyBlog.Data.dll
+C:\Users\Fernando Serapio\documents\visual studio 2012\Projects\Nancy.Demo.NancyBlog\Nancy.Demo.NancyBlog.Data\bin\Debug\Nancy.Demo.NancyBlog.Data.pdb
+C:\Users\Fernando Serapio\documents\visual studio 2012\Projects\Nancy.Demo.NancyBlog\Nancy.Demo.NancyBlog.Data\obj\Debug\Nancy.Demo.NancyBlog.Data.dll
+C:\Users\Fernando Serapio\documents\visual studio 2012\Projects\Nancy.Demo.NancyBlog\Nancy.Demo.NancyBlog.Data\obj\Debug\Nancy.Demo.NancyBlog.Data.pdb
