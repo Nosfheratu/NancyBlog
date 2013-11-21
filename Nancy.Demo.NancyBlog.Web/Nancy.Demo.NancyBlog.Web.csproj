@@ -7,8 +7,8 @@
     <ProjectGuid>{68F5F5F3-B8BB-4911-875F-6F00AAE04EA6}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Nancy.Demo.NancyBlog</RootNamespace>
-    <AssemblyName>Nancy.Demo.NancyBlog</AssemblyName>
+    <RootNamespace>Nancy.Demo.NancyBlog.Web</RootNamespace>
+    <AssemblyName>Nancy.Demo.NancyBlog.Web</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

@@ -1,4 +1,4 @@
-﻿namespace Nancy.Demo.NancyBlog
+﻿namespace Nancy.Demo.NancyBlog.Web
 {
     using System;
     using Nancy.Hosting.Self;
