@@ -82,33 +82,87 @@
     <None Include="web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\css\foundation.css" />
-    <Content Include="Content\css\foundation.min.css" />
-    <Content Include="Content\css\normalize.css" />
-    <Content Include="Content\js\foundation.min.js" />
-    <Content Include="Content\js\foundation\foundation.abide.js" />
-    <Content Include="Content\js\foundation\foundation.accordion.js" />
-    <Content Include="Content\js\foundation\foundation.alert.js" />
-    <Content Include="Content\js\foundation\foundation.clearing.js" />
-    <Content Include="Content\js\foundation\foundation.dropdown.js" />
-    <Content Include="Content\js\foundation\foundation.interchange.js" />
-    <Content Include="Content\js\foundation\foundation.joyride.js" />
-    <Content Include="Content\js\foundation\foundation.js" />
-    <Content Include="Content\js\foundation\foundation.magellan.js" />
-    <Content Include="Content\js\foundation\foundation.offcanvas.js" />
-    <Content Include="Content\js\foundation\foundation.orbit.js" />
-    <Content Include="Content\js\foundation\foundation.reveal.js" />
-    <Content Include="Content\js\foundation\foundation.tab.js" />
-    <Content Include="Content\js\foundation\foundation.tooltip.js" />
-    <Content Include="Content\js\foundation\foundation.topbar.js" />
-    <Content Include="Content\js\jquery.js" />
-    <Content Include="Content\js\modernizr.js" />
-    <Content Include="Content\js\vendor\custom.modernizr.js" />
-    <Content Include="Content\js\vendor\fastclick.js" />
-    <Content Include="Content\js\vendor\jquery.autocomplete.js" />
-    <Content Include="Content\js\vendor\jquery.cookie.js" />
-    <Content Include="Content\js\vendor\jquery.js" />
-    <Content Include="Content\js\vendor\placeholder.js" />
+    <Content Include="Content\css\foundation.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\css\foundation.min.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\css\normalize.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\js\foundation.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\js\foundation\foundation.abide.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\js\foundation\foundation.accordion.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\js\foundation\foundation.alert.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\js\foundation\foundation.clearing.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\js\foundation\foundation.dropdown.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\js\foundation\foundation.interchange.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\js\foundation\foundation.joyride.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\js\foundation\foundation.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\js\foundation\foundation.magellan.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\js\foundation\foundation.offcanvas.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\js\foundation\foundation.orbit.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\js\foundation\foundation.reveal.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\js\foundation\foundation.tab.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\js\foundation\foundation.tooltip.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\js\foundation\foundation.topbar.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\js\jquery.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\js\modernizr.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\js\vendor\custom.modernizr.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\js\vendor\fastclick.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\js\vendor\jquery.autocomplete.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\js\vendor\jquery.cookie.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\js\vendor\jquery.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\js\vendor\placeholder.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\nancy-logo.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
