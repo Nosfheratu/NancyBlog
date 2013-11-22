@@ -16,14 +16,14 @@ namespace Nancy.Demo.NancyBlog.Web.Modules
 
             Get["/Posts"] = p =>
             {
-                return View["Posts/index", new { Posts = repository.GetAll(), Title = "Nancy Blog Demo" }];
+                return View["Posts/index", new { Posts = repository.GetAll(), Title = "Nancy Blog", Description = "A simple blog demo built with Nancy" }];
             };
 
             Get["/Posts/{id}"] = p =>
             {
                 var post = repository.GetById(p.id);
 
-                return View["Posts/show", new { Post = post, Title = "Nancy Blog Demo" }];
+                return View["Posts/show", new { Post = post, Title = "Nancy Blog", Description = "A simple blog demo built with Nancy" }];
             };
         }
     }

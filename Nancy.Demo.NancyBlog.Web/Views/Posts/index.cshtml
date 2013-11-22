@@ -3,9 +3,17 @@
 }
 <h1>Posts</h1>
 
-<ul>
     @foreach (var post in Model.Posts)
     {
-        <li><a href="/Posts/@post.Id">@post.Title</a></li>
+            <article>
+                <h3><a href="/Posts/@post.Id">@post.Title</a></h3>
+                <h6>Written by <a href="#">@post.Author</a> on @DateTime.Now</h6>
+
+                <div class="row">
+                </div>
+
+                <p>@post.Body</p>
+                
+            </article>
+            <br />
     }
-</ul>
