@@ -1,27 +1,15 @@
-﻿<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Nancy.Demo.NancyBlog.Web</title>
+﻿@{
+    Layout = "Shared/_Layout.cshtml";
+}
 
-	<style type="text/css">
+<h1>@Model.Post.Title</h1>
 
-		/*body {
-			text-align: center;
-		}*/
+<div>
+    <p>@Model.Post.Body</p>
 
-	</style>
-
-</head>
-<body>
-    <h1>@Model.Title</h1>
-
-    <div>
-        <p>@Model.Body</p>
-
-        <i>@Model.Author</i>
-    </div>
-
+    <i>@Model.Post.Author</i>
+</div>
+<br />
+<div>
     <a href="/Posts">Back</a>
-</body>
-</html>
+</div>

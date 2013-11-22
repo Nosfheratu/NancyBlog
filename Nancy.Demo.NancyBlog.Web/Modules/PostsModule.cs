@@ -12,18 +12,18 @@ namespace Nancy.Demo.NancyBlog.Web.Modules
     {
         public PostsModule()
         {
-            PostsRepository repository = new PostsRepository();
+            var repository = new PostsRepository();
 
             Get["/Posts"] = p =>
             {
-                return View["Posts/index.cshtml", repository.GetAll()];
+                return View["Posts/index", new { Posts = repository.GetAll(), Title = "Nancy Blog Demo" }];
             };
 
             Get["/Posts/{id}"] = p =>
             {
                 var post = repository.GetById(p.id);
 
-                return View["Posts/show.cshtml", post];
+                return View["Posts/show", new { Post = post, Title = "Nancy Blog Demo" }];
             };
         }
     }

@@ -1,26 +1,11 @@
-﻿<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Nancy.Demo.NancyBlog.Web</title>
+﻿@{
+    Layout = "Shared/_Layout.cshtml";
+}
+<h1>Posts</h1>
 
-	<style type="text/css">
-
-		/*body {
-			text-align: center;
-		}*/
-
-	</style>
-
-</head>
-<body>
-    <h1>Posts</h1>
-
-    <ul>
-        @foreach (var post in Model)
-        {
-            <li><a href="/Posts/@post.Id">@post.Title</a></li>
-        }
-    </ul>
-</body>
-</html>
+<ul>
+    @foreach (var post in Model.Posts)
+    {
+        <li><a href="/Posts/@post.Id">@post.Title</a></li>
+    }
+</ul>
