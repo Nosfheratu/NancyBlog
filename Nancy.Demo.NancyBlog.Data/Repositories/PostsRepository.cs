@@ -14,7 +14,7 @@ namespace Nancy.Demo.NancyBlog.Data.Repositories
         
         public dynamic Find(int id)
         {
-            return new NotImplementedException();
+            return db.Posts.FindByPostId(id);
         }
 
         public List<dynamic> GetAll()
