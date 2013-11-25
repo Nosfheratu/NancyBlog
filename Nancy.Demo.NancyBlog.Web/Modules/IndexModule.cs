@@ -1,4 +1,4 @@
-﻿namespace Nancy.Demo.NancyBlog.Web
+﻿namespace Nancy.Demo.NancyBlog.Web.Modules
 {
     using Nancy;
 
@@ -8,7 +8,7 @@
         {
             Get["/"] = parameters =>
             {
-                return View["index"];
+                return View["index", new { Title = "Nancy Blog", Description = "A simple blog demo built with Nancy" }];
             };
         }
     }
