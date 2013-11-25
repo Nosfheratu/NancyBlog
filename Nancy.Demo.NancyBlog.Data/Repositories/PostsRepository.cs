@@ -4,31 +4,22 @@ using System.Linq;
 using System.Text;
 
 using Nancy.Demo.NancyBlog.Data.Entities;
+using Simple.Data;
 
 namespace Nancy.Demo.NancyBlog.Data.Repositories
 {
     public class PostsRepository
     {
-        private List<Post> Posts;
-
-        public PostsRepository()
+        private dynamic db = Database.OpenNamedConnection("NancyBlog");
+        
+        public dynamic Find(int id)
         {
-            Posts = new List<Post>
-            {
-                new Post(){Id = 1, Title="First Post", Body="This is the first Post", Author="FSC"},
-                new Post(){Id = 2, Title="Second Post", Body="This is the second Post", Author="FSC"},
-                new Post(){Id = 3, Title="Third Post", Body="This is the third Post", Author="FSC"}
-            };
+            return new NotImplementedException();
         }
 
-        public List<Post> GetAll()
+        public List<dynamic> GetAll()
         {
-            return Posts;
-        }
-
-        public Post GetById(int id)
-        {
-            return Posts.FirstOrDefault(p => p.Id == id);
+            return db.Posts.All();
         }
     }
 }
