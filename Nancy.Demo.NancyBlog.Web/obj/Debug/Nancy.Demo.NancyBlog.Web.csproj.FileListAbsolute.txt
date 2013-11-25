@@ -37,6 +37,9 @@ C:\Users\Fernando Serapio\Documents\Visual Studio 2012\Projects\Nancy.Demo.Nancy
 C:\Users\Fernando Serapio\Documents\Visual Studio 2012\Projects\Nancy.Demo.NancyBlog\Nancy.Demo.NancyBlog.Web\bin\Debug\Nancy.dll
 C:\Users\Fernando Serapio\Documents\Visual Studio 2012\Projects\Nancy.Demo.NancyBlog\Nancy.Demo.NancyBlog.Web\bin\Debug\Nancy.Hosting.Self.dll
 C:\Users\Fernando Serapio\Documents\Visual Studio 2012\Projects\Nancy.Demo.NancyBlog\Nancy.Demo.NancyBlog.Web\bin\Debug\Nancy.ViewEngines.Razor.dll
+C:\Users\Fernando Serapio\Documents\Visual Studio 2012\Projects\Nancy.Demo.NancyBlog\Nancy.Demo.NancyBlog.Web\bin\Debug\Simple.Data.Ado.dll
+C:\Users\Fernando Serapio\Documents\Visual Studio 2012\Projects\Nancy.Demo.NancyBlog\Nancy.Demo.NancyBlog.Web\bin\Debug\Simple.Data.dll
+C:\Users\Fernando Serapio\Documents\Visual Studio 2012\Projects\Nancy.Demo.NancyBlog\Nancy.Demo.NancyBlog.Web\bin\Debug\Simple.Data.SqlServer.dll
 C:\Users\Fernando Serapio\Documents\Visual Studio 2012\Projects\Nancy.Demo.NancyBlog\Nancy.Demo.NancyBlog.Web\bin\Debug\System.Web.Razor.Unofficial.dll
 C:\Users\Fernando Serapio\Documents\Visual Studio 2012\Projects\Nancy.Demo.NancyBlog\Nancy.Demo.NancyBlog.Web\bin\Debug\Nancy.Demo.NancyBlog.Data.pdb
 C:\Users\Fernando Serapio\Documents\Visual Studio 2012\Projects\Nancy.Demo.NancyBlog\Nancy.Demo.NancyBlog.Web\bin\Debug\System.Web.Razor.Unofficial.pdb
