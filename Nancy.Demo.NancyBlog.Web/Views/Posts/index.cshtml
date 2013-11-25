@@ -6,8 +6,24 @@
     @foreach (var post in Model.Posts)
     {
             <article>
-                <h3><a href="/Posts/@post.Id">@post.Title</a></h3>
-                <h6>Written by <a href="#">@post.Author</a> on @DateTime.Now</h6>
+                <h3><a href="/Posts/@post.PostId">@post.Title</a></h3>
+                <h6>Written by <a href="#">@post.Author.FullName</a> on @DateTime.Now.ToShortDateString()</h6>
+                @if (@post.Comments.Count() == 1)
+                {
+                    <h6>
+                        (1) Comment
+                    </h6>
+                }
+                else if(@post.Comments.Count() > 1)
+                {
+                    <h6>
+                        (@post.Comments.Count()) Comments
+                    </h6>
+                }
+                else
+                {
+                    <h6>No comments yet...</h6>
+                }
 
                 <div class="row">
                 </div>
