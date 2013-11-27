@@ -14,12 +14,30 @@ namespace Nancy.Demo.NancyBlog.Data.Repositories
         
         public dynamic Find(int id)
         {
-            return db.Posts.FindByPostId(id);
+            dynamic post = this.db.Posts.FindByPostId(id);
+            return post;
         }
 
         public List<dynamic> GetAll()
         {
-            return db.Posts.All();
+            return this.db.Posts.All();
+        }
+
+        public dynamic Add(dynamic post)
+        {
+            var addedPost = this.db.Posts.Insert(post);
+            return addedPost;
+        }
+
+        public dynamic Update(dynamic post)
+        {
+            this.db.Posts.Update(post);
+            return post;
+        }
+
+        public void Remove(int id)
+        {
+            this.db.Posts.DeleteByPostId(id);
         }
     }
 }

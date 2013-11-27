@@ -16,7 +16,8 @@ namespace Nancy.Demo.NancyBlog.Web.Modules
 
             Get["/Posts"] = p =>
             {
-                return View["Posts/index", new { Posts = repository.GetAll(), Title = "Nancy Blog", Description = "A simple blog demo built with Nancy" }];
+                var posts = repository.GetAll();
+                return View["Posts/index", new { Posts = posts, Title = "Nancy Blog", Description = "A simple blog demo built with Nancy" }];
             };
 
             Get["/Posts/{id}"] = p =>
