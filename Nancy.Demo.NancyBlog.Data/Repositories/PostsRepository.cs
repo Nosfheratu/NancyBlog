@@ -20,7 +20,7 @@ namespace Nancy.Demo.NancyBlog.Data.Repositories
 
         public List<dynamic> GetAll()
         {
-            return this.db.Posts.All();
+            return this.db.Posts.All().With(db.Posts.Author);
         }
 
         public dynamic Add(dynamic post)
