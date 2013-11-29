@@ -26,6 +26,9 @@ C:\Users\Fernando Serapio\Documents\Visual Studio 2012\Projects\Nancy.Demo.Nancy
 C:\Users\Fernando Serapio\Documents\Visual Studio 2012\Projects\Nancy.Demo.NancyBlog\Nancy.Demo.NancyBlog.Web\bin\Debug\Content\js\vendor\jquery.js
 C:\Users\Fernando Serapio\Documents\Visual Studio 2012\Projects\Nancy.Demo.NancyBlog\Nancy.Demo.NancyBlog.Web\bin\Debug\Content\js\vendor\placeholder.js
 C:\Users\Fernando Serapio\Documents\Visual Studio 2012\Projects\Nancy.Demo.NancyBlog\Nancy.Demo.NancyBlog.Web\bin\Debug\Content\nancy-logo.png
+C:\Users\Fernando Serapio\Documents\Visual Studio 2012\Projects\Nancy.Demo.NancyBlog\Nancy.Demo.NancyBlog.Web\bin\Debug\Views\Posts\edit.cshtml
+C:\Users\Fernando Serapio\Documents\Visual Studio 2012\Projects\Nancy.Demo.NancyBlog\Nancy.Demo.NancyBlog.Web\bin\Debug\Views\Posts\_form.cshtml
+C:\Users\Fernando Serapio\Documents\Visual Studio 2012\Projects\Nancy.Demo.NancyBlog\Nancy.Demo.NancyBlog.Web\bin\Debug\Views\Posts\new.cshtml
 C:\Users\Fernando Serapio\Documents\Visual Studio 2012\Projects\Nancy.Demo.NancyBlog\Nancy.Demo.NancyBlog.Web\bin\Debug\Views\Shared\_Layout.cshtml
 C:\Users\Fernando Serapio\Documents\Visual Studio 2012\Projects\Nancy.Demo.NancyBlog\Nancy.Demo.NancyBlog.Web\bin\Debug\Views\index.cshtml
 C:\Users\Fernando Serapio\Documents\Visual Studio 2012\Projects\Nancy.Demo.NancyBlog\Nancy.Demo.NancyBlog.Web\bin\Debug\Views\Posts\show.cshtml

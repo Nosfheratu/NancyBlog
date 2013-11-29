@@ -3,33 +3,38 @@
 }
 <h1>Posts</h1>
 
+<a href="/Posts/New" class="button [radius round]">New Post</a>
+
+<div class="panel radius">
+
     @foreach (var post in Model.Posts)
     {
-            <article>
-                <h3><a href="/Posts/@post.PostId">@post.Title</a></h3>
-                <h6>Written by <a href="#">@post.Author.FullName</a> on @DateTime.Now.ToShortDateString()</h6>
-                @if (@post.Comments.Count() == 1)
-                {
-                    <h6>
-                        (1) Comment
-                    </h6>
-                }
-                else if(@post.Comments.Count() > 1)
-                {
-                    <h6>
-                        (@post.Comments.Count()) Comments
-                    </h6>
-                }
-                else
-                {
-                    <h6>No comments yet...</h6>
-                }
+        <article>
+            <h3><a href="/Posts/@post.PostId">@post.Title</a></h3>
+            <h6>Written by <a href="#">@post.Author.FullName</a> on @DateTime.Now.ToShortDateString()</h6>
+            @if (@post.Comments.Count() == 1)
+            {
+                <h6>
+                    <a href="/Posts/@post.PostId#comments">(1) Comment</a>
+                </h6>
+            }
+            else if (@post.Comments.Count() > 1)
+            {
+                <h6>
+                    <a href="/Posts/@post.PostId#comments">(@post.Comments.Count()) Comments</a>
+                </h6>
+            }
+            else
+            {
+                <h6>No comments yet...</h6>
+            }
 
-                <div class="row">
-                </div>
+            <div class="row">
+            </div>
 
-                <p>@post.Body</p>
-                
-            </article>
-            <br />
+            <p>@post.Body</p>
+
+        </article>
+        <br />
     }
+</div>

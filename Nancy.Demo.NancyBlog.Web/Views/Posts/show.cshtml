@@ -9,7 +9,23 @@
 
     <i>@Model.Post.Author.FullName</i>
 </div>
+
 <br />
+
 <div>
-    <a href="/Posts">Back</a>
+    <a href="/Posts" class="button [radius round]">Back</a>
+    <a href="/Posts/@Model.Post.PostId/Edit" class="button [radius round]">Edit</a>
+</div>
+
+<br />
+
+<div class="panel" id="comments">
+    <h2>Comments</h2>
+    @foreach (var comment in @Model.Post.Comments)
+    {
+        <div class="comment" id="comment-@comment.CommentId">
+            <p>On @DateTime.Now.ToShortDateString(), @comment.Author said:</p>
+            <p>@comment.Body</p>
+        </div>
+    }
 </div>

@@ -1,0 +1,36 @@
+﻿<div class="panel">
+    <div class="row collapse">
+        <div class="small-3 large-2 columns">
+            <span class="prefix">Blog</span>
+        </div>
+        <div class="small-9 large-10 columns">
+            <input type="text" name="Blog" value="@Model.Blog.Name" disabled/>
+        </div>
+    </div>
+    <div class="row collapse">
+        <div class="small-3 large-2 columns">
+            <span class="prefix">Author</span>
+        </div>
+        <div class="small-9 large-10 columns">
+            <input type="text" name="Author" value="@Model.Author.FullName" disabled/>
+        </div>
+    </div>
+</div>
+<form action="/Posts/@Model.Action" method="post">
+    <input type="hidden" name="PostId" value="@Model.Post.PostId" />
+    <input type="hidden" name="AuthorId" value="@Model.Author.AuthorId" />
+    <input type="hidden" name="BlogId" value="@Model.Blog.BlogId" />
+    <div class="row">
+        <div class="large-12 columns">
+            <label>Title</label>
+            <input type="text" name="Title" placeholder="" value="@Model.Post.Title" />
+            <label>Content</label>
+            <textarea placeholder="" name="Body" rows="25">@Model.Post.Body</textarea>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns">
+            <input type="submit" name="submitPosts" class="button large-12" value="Save" />
+        </div>
+    </div>
+</form>
