@@ -18,5 +18,9 @@ namespace Nancy.Demo.NancyBlog.Data.Entities
         public Author Author { get; set; }
 
         public Blog Blog { get; set; }
+
+        public int AuthorId { get; set; }
+
+        public int BlogId { get; set; }
     }
 }
