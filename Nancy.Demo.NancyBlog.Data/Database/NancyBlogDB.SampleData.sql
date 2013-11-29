@@ -29,6 +29,18 @@ INSERT INTO [dbo].[Posts]
            ,1)
 GO
 
+INSERT INTO [dbo].[Posts]
+           ([Title]
+           ,[Body]
+           ,[BlogId]
+           ,[AuthorId])
+     VALUES
+           ('Hello World!'
+           ,'Welcome to my new stupid blog...'
+           ,1
+           ,1)
+GO
+
 INSERT INTO [dbo].[Comments]
            ([Body]
            ,[PostId]
@@ -36,6 +48,36 @@ INSERT INTO [dbo].[Comments]
      VALUES
            ('Awesome! This gonna be great!'
            ,1
+           ,'Nosfheratu')
+GO
+
+INSERT INTO [dbo].[Comments]
+           ([Body]
+           ,[PostId]
+           ,[Author])
+     VALUES
+           ('Awesome! This gonna be great!'
+           ,1
+           ,'Nosfheratu')
+GO
+
+INSERT INTO [dbo].[Comments]
+           ([Body]
+           ,[PostId]
+           ,[Author])
+     VALUES
+           ('Awesome! This gonna be great!'
+           ,2
+           ,'Nosfheratu')
+GO
+
+INSERT INTO [dbo].[Comments]
+           ([Body]
+           ,[PostId]
+           ,[Author])
+     VALUES
+           ('Awesome! This gonna be great!'
+           ,2
            ,'Nosfheratu')
 GO
 
